@@ -1,9 +1,9 @@
-<script setup lang="ts">
+<script setup lang="ts" generic="T">
 const { modelValue } = defineModels<{
   modelValue: string;
 }>();
 const props = defineProps<{
-  onEnter: () => Promise<void> | void;
+  callback: (text:string) => Promise<T>;
 }>();
 </script>
 
@@ -20,6 +20,6 @@ const props = defineProps<{
     border="~ rounded gray-200 dark:gray-700"
     outline="none active:none"
     placeholder="Enter your name"
-    @keydown.enter="props.onEnter"
+    @keydown.enter="props.callback(modelValue)"
   />
 </template>

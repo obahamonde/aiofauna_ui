@@ -11,6 +11,8 @@ declare module 'vue' {
     Input: typeof import('./components/Input.vue')['default']
     Landing: typeof import('./components/Landing.vue')['default']
     Modal: typeof import('./components/Modal.vue')['default']
+    Navbar: typeof import('./components/Navbar.vue')['default']
+    Notifier: typeof import('./components/Notifier.vue')['default']
     Prices: typeof import('./components/Prices.vue')['default']
     README: (typeof import("./components/README.md"))["default"]
     RouterLink: typeof import('vue-router')['RouterLink']

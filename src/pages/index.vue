@@ -4,6 +4,7 @@ useFavicon("/favicon.png")
 </script>
 <template>
 <Landing/>
+<Toolbar/>
 </template>
 
 <route lang="yaml">

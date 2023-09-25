@@ -5,7 +5,7 @@
 <div class="flex items-center justify-between rounded-full bg-zinc-800 p-2 max-w-max">
   <div class="flex space-x-2 border-r border-zinc-600 pr-1">
     <button class="inline-flex items-center justify-center text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 w-10 text-zinc-100 rounded-full hover:bg-gray-600 hover:text-zinc-100">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class=" h-6 w-6 stroke-1"><path d="m3 21 1.9-5.7a8.5 8.5 0 1 1 3.8 3.8z"></path></svg>
+      <Icon icon="mdi:plus" class="x2"/>
       <span class="sr-only">Create a comment</span>
     </button>
     <div class="relative">
